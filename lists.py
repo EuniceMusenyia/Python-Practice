@@ -15,6 +15,7 @@ names.insert(1,"Fillangame")
 print(names)
 names.sort()
 print(names)
+
 # numbers = [9, 2, 5, 1, 7]
 # print(numbers.sort[])
 names.sort(reverse=True)
@@ -33,7 +34,10 @@ for name in names: print(name.upper())
 for name in names:names.append(name.upper())
 
 # List comprehension
-names =[name.upper()for name in names]
-print(names)
+# names =[name.upper()for name in names]
+# print(names)
 
+x = ["a", "b","c"]
+u = [x.upper()for k in x]
+print(u)
 
